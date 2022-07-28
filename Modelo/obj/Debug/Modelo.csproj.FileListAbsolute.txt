@@ -1,0 +1,14 @@
+C:\Users\jimmy.hidrobo.MVM\source\repos\PuebaTecnica\Modelo\bin\Debug\Modelo.dll.config
+C:\Users\jimmy.hidrobo.MVM\source\repos\PuebaTecnica\Modelo\bin\Debug\Modelo.dll
+C:\Users\jimmy.hidrobo.MVM\source\repos\PuebaTecnica\Modelo\bin\Debug\Modelo.pdb
+C:\Users\jimmy.hidrobo.MVM\source\repos\PuebaTecnica\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+C:\Users\jimmy.hidrobo.MVM\source\repos\PuebaTecnica\Modelo\obj\Debug\Modelo.dll
+C:\Users\jimmy.hidrobo.MVM\source\repos\PuebaTecnica\Modelo\obj\Debug\Modelo.pdb
+C:\Users\jimmy.hidrobo.MVM\source\repos\PuebaTecnica\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+D:\Dirtrab\Jhidrobo\Personal\00_PruebaTecnica2022\PuebaTecnica\Modelo\obj\Debug\Modelo.csprojAssemblyReference.cache
+D:\Dirtrab\Jhidrobo\Personal\00_PruebaTecnica2022\PuebaTecnica\Modelo\obj\Debug\Modelo.csproj.CoreCompileInputs.cache
+D:\Dirtrab\Jhidrobo\Personal\00_PruebaTecnica2022\PuebaTecnica\Modelo\obj\Debug\Modelo.dll
+D:\Dirtrab\Jhidrobo\Personal\00_PruebaTecnica2022\PuebaTecnica\Modelo\obj\Debug\Modelo.pdb
+D:\Dirtrab\Jhidrobo\Personal\00_PruebaTecnica2022\PuebaTecnica\Modelo\bin\Debug\Modelo.dll.config
+D:\Dirtrab\Jhidrobo\Personal\00_PruebaTecnica2022\PuebaTecnica\Modelo\bin\Debug\Modelo.dll
+D:\Dirtrab\Jhidrobo\Personal\00_PruebaTecnica2022\PuebaTecnica\Modelo\bin\Debug\Modelo.pdb

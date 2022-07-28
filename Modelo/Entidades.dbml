@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="GoalBus" Class="EntidadesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=svrprueba.database.windows.net;Initial Catalog=GoalBus;Persist Security Info=True;User ID=Administrador" SettingsObjectName="Modelo.Properties.Settings" SettingsPropertyName="GoalBusConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.CODIGO_TIPO_EVENTO" Member="CODIGO_TIPO_EVENTO">
+    <Type Name="CODIGO_TIPO_EVENTO">
+      <Column Name="CODIGO_TIPO_EVENTO" Member="CODIGO_TIPO_EVENTO1" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DESCRIPCION" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="DESCRIP_CORTA" Type="System.String" DbType="VarChar(4)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CUADROS_SOLUCIONES_DET" Member="CUADROS_SOLUCIONES_DET">
+    <Type Name="CUADROS_SOLUCIONES_DET">
+      <Column Name="CODIGO_CUADRO" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CODIGO_TRAYECTO" Type="System.String" DbType="VarChar(10) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NUMERO_SOLUCION" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="CODIGO_TIPO_EVENTO" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EVENTO" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PARADA_ORIGEN" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PARADA_DESTINO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COCHE_LOGICO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TURNO_SERVICIO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HORA_INICIO" Type="System.String" DbType="VarChar(9)" CanBeNull="true" />
+      <Column Name="HORA_FIN" Type="System.String" DbType="VarChar(9)" CanBeNull="true" />
+      <Column Name="SENTIDO" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="KMS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CODIGO_TIPO_BUS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="COCHE_INFORMES" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DESCRIP_CAMINO" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="BUS_EMT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DURACION" Type="System.String" DbType="VarChar(9)" CanBeNull="true" />
+      <Column Name="FRECUENCIA" Type="System.String" DbType="VarChar(9)" CanBeNull="true" />
+      <Column Name="VIAJE_ACUM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TRAMO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CODIGO_TIPO_TURNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="DESCRIPCION_EVENTO" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
